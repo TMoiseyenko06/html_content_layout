@@ -1,0 +1,63 @@
+body {
+    background-color: #242333;
+}
+
+#form {
+    margin: auto;
+    border: 2px white solid;
+    width: 175px;
+    padding: 25px;
+    color: white;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #01b0d3;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+ border: 1px white solid;
+}
+
+input {
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px #01b0d3 solid;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 5px 0;
+    display: inline;
+    padding-right: 20px;
+    color: white;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+    color: #01b0d3;
+    cursor: pointer;
+  }
+
+table {
+    border: 2px white solid;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+}
+
+.price {
+    text-decoration: underline;
+    color: #01b0d3;
+}
